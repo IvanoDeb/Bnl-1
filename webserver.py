@@ -1,7 +1,7 @@
-from flask import Flask
+from aiohttp import aiohttp
 from threading import Thread
 
-app = Flask('')
+app = aiohttp('')
 
 @app.route('/')
 def home():
