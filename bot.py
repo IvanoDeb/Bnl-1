@@ -167,4 +167,4 @@ async def start_web():
 
 asyncio.get_event_loop().create_task(start_web())
 
-bot.run(os.getenv("DISCORD_TOKEN")
+bot.run(os.getenv("DISCORD_TOKEN"))
