@@ -172,4 +172,5 @@ async def helpbot(ctx):
 /loan [@discord_user] [to_club] [contract npr. 10d]  
 """)
 
-bot.run("MTM3MjMzNjA3ODYzNTQwNTQxMw.Gj-nyG.snZ9HfnF0gd0ioZLUtVBvRs2Z9Pg4Gx7LTaNfU")
+import os
+bot.run(os.getenv("DISCORD_TOKEN"))
