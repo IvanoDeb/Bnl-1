@@ -157,7 +157,7 @@ async def handle(request):
 app = web.Application()
 app.add_routes([web.get('/', handle)])
 
-port = int(os.environ.get("PORT", 8080))
+port = int(os.environ.get("PORT", 10000))
 runner = web.AppRunner(app)
 
 async def start_web():
